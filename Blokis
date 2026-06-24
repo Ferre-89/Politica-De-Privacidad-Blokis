@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es-419">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — Blokis</title>
+  <style>
+    :root {
+      --cream: #FFF8F6;
+      --cream-soft: #FFFAF6;
+      --orange: #F57C00;
+      --brown: #5D4037;
+      --brown-dark: #4E342E;
+      --muted: #8d7b73;
+      --card: #ffffff;
+      --border: #f0e6e1;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--cream);
+      color: var(--brown);
+      line-height: 1.7;
+      padding: 24px;
+    }
+    .container {
+      max-width: 760px;
+      margin: 0 auto;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 40px 32px;
+      box-shadow: 0 8px 30px rgba(93, 64, 55, 0.06);
+    }
+    .brand {
+      font-size: 28px;
+      font-weight: 800;
+      color: var(--orange);
+      letter-spacing: -0.5px;
+    }
+    h1 {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--brown-dark);
+      margin: 6px 0 4px;
+    }
+    .updated {
+      color: var(--muted);
+      font-size: 14px;
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 700;
+      color: var(--orange);
+      margin: 28px 0 10px;
+    }
+    p { margin-bottom: 12px; }
+    ul { margin: 8px 0 12px 22px; }
+    li { margin-bottom: 6px; }
+    a { color: var(--orange); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .footer {
+      margin-top: 32px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="brand">BLOKIS</div>
+    <h1>Política de Privacidad</h1>
+    <p class="updated">Última actualización: 23 de junio de 2026</p>
+
+    <p>Esta Política de Privacidad describe cómo la aplicación <strong>Blokis</strong> ("la aplicación", "nosotros") trata la información cuando la utilizás. Blokis es un juego de rompecabezas de bloques desarrollado por Rodrigo Ferreira. Te recomendamos leer este documento para entender nuestras prácticas.</p>
+
+    <h2>1. Información que NO recopilamos</h2>
+    <p>Blokis <strong>no solicita ni recopila datos personales identificables</strong>. La aplicación no requiere registro, inicio de sesión, dirección de correo electrónico, nombre, número de teléfono ni ningún otro dato personal para funcionar.</p>
+
+    <h2>2. Datos almacenados en tu dispositivo</h2>
+    <p>Blokis guarda cierta información <strong>únicamente de forma local en tu dispositivo</strong>, que nunca se envía a nuestros servidores:</p>
+    <ul>
+      <li>Tus récords y puntuaciones, junto con las iniciales que ingresás.</li>
+      <li>Tu racha diaria y estadísticas de juego.</li>
+      <li>Tus preferencias y ajustes (por ejemplo, sonido).</li>
+      <li>El estado de tu compra (por ejemplo, si adquiriste la versión sin anuncios).</li>
+    </ul>
+    <p>Estos datos se eliminan si desinstalás la aplicación o borrás sus datos desde la configuración de tu dispositivo.</p>
+
+    <h2>3. Servicios de terceros</h2>
+    <p>Blokis utiliza servicios de terceros que pueden recopilar cierta información de forma automática para su funcionamiento. Cada uno tiene su propia política de privacidad:</p>
+
+    <h2>3.1. Google AdMob (publicidad)</h2>
+    <p>Mostramos anuncios a través de Google AdMob. Para personalizar y medir los anuncios, AdMob puede acceder a identificadores de publicidad y a datos del dispositivo. Podés consultar más información en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a> y administrar tus preferencias de anuncios en la configuración de tu dispositivo.</p>
+
+    <h2>3.2. Firebase Crashlytics (informes de errores)</h2>
+    <p>Utilizamos Firebase Crashlytics, de Google, para detectar y corregir fallos de la aplicación. Cuando ocurre un error, se recopilan datos técnicos del dispositivo (como modelo, versión del sistema operativo y el estado de la aplicación al momento del fallo). Esta información nos ayuda a mejorar la estabilidad y no se utiliza para identificarte.</p>
+
+    <h2>3.3. Compras dentro de la aplicación (Google Play Billing)</h2>
+    <p>Blokis ofrece una compra opcional para eliminar los anuncios. Las compras se procesan a través de Google Play; nosotros no recibimos ni almacenamos los datos de tu medio de pago. El procesamiento del pago se rige por las políticas de Google.</p>
+
+    <h2>4. Público y menores de edad</h2>
+    <p>Blokis es un juego apto para un público general. No recopilamos de forma consciente datos personales de menores de edad. Como la aplicación no solicita datos personales, no hay información personal de menores que podamos almacenar.</p>
+
+    <h2>5. Seguridad</h2>
+    <p>Dado que los datos de juego se almacenan localmente en tu dispositivo y no recopilamos datos personales, el riesgo asociado al tratamiento de tu información es mínimo. Los servicios de terceros mencionados aplican sus propias medidas de seguridad.</p>
+
+    <h2>6. Cambios en esta política</h2>
+    <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Cualquier cambio se publicará en esta misma página, con la fecha de actualización correspondiente.</p>
+
+    <h2>7. Contacto</h2>
+    <p>Si tenés preguntas sobre esta Política de Privacidad, podés escribirnos a: <a href="mailto:ferre171717@gmail.com">ferre171717@gmail.com</a>.</p>
+
+    <div class="footer">
+      © 2026 Blokis — Rodrigo Ferreira. Todos los derechos reservados.
+    </div>
+  </div>
+</body>
+</html>
