@@ -25,7 +25,7 @@
     }
     .container {
       max-width: 760px;
-      margin: 0 auto;
+      margin: 0 auto 24px;
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 20px;
@@ -47,6 +47,10 @@
     .updated {
       color: var(--muted);
       font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .lang {
+      font-size: 14px;
       margin-bottom: 28px;
     }
     h2 {
@@ -54,6 +58,12 @@
       font-weight: 700;
       color: var(--orange);
       margin: 28px 0 10px;
+    }
+    h3 {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--brown-dark);
+      margin: 18px 0 8px;
     }
     p { margin-bottom: 12px; }
     ul { margin: 8px 0 12px 22px; }
@@ -70,53 +80,162 @@
   </style>
 </head>
 <body>
-  <div class="container">
+
+  <!-- ===================================================================== -->
+  <!-- ESPAÑOL                                                                 -->
+  <!-- ===================================================================== -->
+  <div class="container" id="es">
     <div class="brand">BLOKIS</div>
     <h1>Política de Privacidad</h1>
-    <p class="updated">Última actualización: 23 de junio de 2026</p>
+    <p class="updated">Última actualización: 16 de octubre de 2026</p>
+    <p class="lang"><a href="#en">Read this policy in English</a></p>
 
-    <p>Esta Política de Privacidad describe cómo la aplicación <strong>Blokis</strong> ("la aplicación", "nosotros") trata la información cuando la utilizás. Blokis es un juego de rompecabezas de bloques desarrollado por Rodrigo Ferreira. Te recomendamos leer este documento para entender nuestras prácticas.</p>
+    <p>Esta Política de Privacidad describe cómo la aplicación <strong>Blokis</strong> ("la aplicación", "nosotros") trata la información cuando la utilizás. Blokis es un juego de rompecabezas de bloques desarrollado por Rodrigo Ferreira, disponible para Android en Google Play y para iOS en App Store. Esta política aplica a las dos versiones. Te recomendamos leer este documento para entender nuestras prácticas.</p>
 
     <h2>1. Información que NO recopilamos</h2>
-    <p>Blokis <strong>no solicita ni recopila datos personales identificables</strong>. La aplicación no requiere registro, inicio de sesión, dirección de correo electrónico, nombre, número de teléfono ni ningún otro dato personal para funcionar.</p>
+    <p>Blokis <strong>no solicita ni recopila datos personales identificables</strong>. La aplicación no requiere registro, inicio de sesión, dirección de correo electrónico, nombre, número de teléfono ni ningún otro dato personal para funcionar. No tenemos servidores propios que reciban información tuya.</p>
 
     <h2>2. Datos almacenados en tu dispositivo</h2>
-    <p>Blokis guarda cierta información <strong>únicamente de forma local en tu dispositivo</strong>, que nunca se envía a nuestros servidores:</p>
+    <p>Blokis guarda cierta información <strong>únicamente de forma local en tu dispositivo</strong>, que no se envía a ningún servidor nuestro:</p>
     <ul>
       <li>Tus récords y puntuaciones, junto con las iniciales que ingresás.</li>
-      <li>Tu racha diaria y estadísticas de juego.</li>
-      <li>Tus preferencias y ajustes (por ejemplo, sonido).</li>
+      <li>Tu racha de juego, tus estadísticas y tu progreso en los niveles (niveles completados y estrellas).</li>
+      <li>El estado del Desafío Diario (último completado y racha diaria).</li>
+      <li>Tus preferencias y ajustes (sonido, música, vibración, idioma y el recordatorio semanal).</li>
       <li>El estado de tu compra (por ejemplo, si adquiriste la versión sin anuncios).</li>
+      <li>Imágenes temporales que la aplicación genera cuando elegís compartir un récord o un desafío (ver sección 5).</li>
     </ul>
     <p>Estos datos se eliminan si desinstalás la aplicación o borrás sus datos desde la configuración de tu dispositivo.</p>
 
     <h2>3. Servicios de terceros</h2>
-    <p>Blokis utiliza servicios de terceros que pueden recopilar cierta información de forma automática para su funcionamiento. Cada uno tiene su propia política de privacidad:</p>
+    <p>Blokis utiliza los siguientes servicios de terceros, que pueden recopilar cierta información de forma automática para su funcionamiento. Cada uno tiene su propia política de privacidad. No usamos otros servicios que los que se listan acá.</p>
 
-    <h2>3.1. Google AdMob (publicidad)</h2>
-    <p>Mostramos anuncios a través de Google AdMob. Para personalizar y medir los anuncios, AdMob puede acceder a identificadores de publicidad y a datos del dispositivo. Podés consultar más información en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a> y administrar tus preferencias de anuncios en la configuración de tu dispositivo.</p>
+    <h3>3.1. Firebase Analytics (estadísticas de uso)</h3>
+    <p>Utilizamos Firebase Analytics, de Google, para entender cómo se usa el juego y mejorarlo. Se registran <strong>eventos de uso</strong>, por ejemplo: partidas iniciadas y terminadas, niveles completados o fallidos, participación en el Desafío Diario, uso de funciones (compartir, recordatorio, calificar), anuncios mostrados y los pasos del flujo de compra (incluido el precio y la moneda del producto, no tus datos de pago). Junto con los eventos, Firebase recopila datos técnicos como el modelo del dispositivo, la versión del sistema operativo, la versión de la aplicación, el idioma y el país aproximado, y asigna un <strong>identificador de instancia de la aplicación</strong>, generado al azar en la instalación y que no está vinculado a tu identidad. No enviamos nombre, correo electrónico ni ningún identificador de usuario propio, y no vinculamos estos datos con otras fuentes. Podés consultar la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a> y la información sobre <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">privacidad y seguridad en Firebase</a>.</p>
 
-    <h2>3.2. Firebase Crashlytics (informes de errores)</h2>
+    <h3>3.2. Firebase Crashlytics (informes de errores)</h3>
     <p>Utilizamos Firebase Crashlytics, de Google, para detectar y corregir fallos de la aplicación. Cuando ocurre un error, se recopilan datos técnicos del dispositivo (como modelo, versión del sistema operativo y el estado de la aplicación al momento del fallo). Esta información nos ayuda a mejorar la estabilidad y no se utiliza para identificarte.</p>
 
-    <h2>3.3. Compras dentro de la aplicación (Google Play Billing)</h2>
-    <p>Blokis ofrece una compra opcional para eliminar los anuncios. Las compras se procesan a través de Google Play; nosotros no recibimos ni almacenamos los datos de tu medio de pago. El procesamiento del pago se rige por las políticas de Google.</p>
+    <h3>3.3. Configuración remota (Cloud Firestore)</h3>
+    <p>Al abrir el menú, la aplicación puede <strong>leer</strong> un par de documentos de configuración alojados en Cloud Firestore, de Google, para mostrarte avisos como la disponibilidad de una nueva versión o un mensaje informativo del desarrollador. Es una lectura de solo lectura por HTTPS: la aplicación no escribe ni envía datos tuyos a Firestore; como en cualquier conexión a Internet, Google recibe los metadatos técnicos de la solicitud (por ejemplo, la dirección IP).</p>
 
-    <h2>4. Público y menores de edad</h2>
+    <h3>3.4. Google AdMob (publicidad)</h3>
+    <p>Mostramos anuncios a través de Google AdMob, salvo que hayas adquirido la versión sin anuncios. Para mostrar y medir los anuncios, AdMob puede acceder a identificadores de publicidad y a datos del dispositivo. En Android, podés restablecer o limitar el identificador de publicidad desde la configuración del sistema. En iOS, la aplicación <strong>no solicita el permiso de seguimiento</strong> (App Tracking Transparency), por lo que no accede al identificador de publicidad del dispositivo. Podés consultar más información en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidad de Google</a> y en <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">cómo usa Google la información publicitaria</a>.</p>
+
+    <h3>3.5. Compras dentro de la aplicación</h3>
+    <p>Blokis ofrece una compra opcional para eliminar los anuncios. Hoy las compras se procesan a través de <strong>Google Play</strong> (Google Play Billing). En iOS, cuando la compra esté disponible, se procesará a través de <strong>Apple</strong> (compras dentro de la app de App Store). En ningún caso recibimos ni almacenamos los datos de tu medio de pago; el procesamiento del pago se rige por las políticas de Google o de Apple, según la tienda. La opción "Restaurar compras" consulta a la tienda correspondiente si ya realizaste la compra con tu cuenta.</p>
+
+    <h3>3.6. Google Play y App Store</h3>
+    <p>La aplicación usa funciones propias de cada tienda: el pedido de calificación dentro de la app (Google Play In-App Review en Android y el sistema de reseñas de Apple en iOS), la comprobación de actualizaciones (Google Play In-App Updates en Android) y la apertura de la ficha de la aplicación en la tienda. Estas funciones se rigen por las políticas de Google y de Apple.</p>
+
+    <h2>4. Notificaciones</h2>
+    <p>Blokis puede mostrarte un <strong>recordatorio semanal</strong> si dejás de jugar durante una semana, solo si lo activás. Es una <strong>notificación local</strong>: la programa la propia aplicación en tu dispositivo, a partir de tu progreso guardado localmente, y no intervienen servidores ni notificaciones push. Podés activarla o desactivarla desde los Ajustes de Blokis o desde la configuración de notificaciones de tu sistema operativo.</p>
+
+    <h2>5. Compartir</h2>
+    <p>Cuando elegís compartir un récord o un Desafío Diario, la aplicación genera en tu dispositivo una imagen y un texto (con tu puntuación y tu racha, nunca con datos personales) y los entrega a la aplicación que vos elijas a través del menú de compartir del sistema. Nosotros no recibimos ese contenido. La imagen se guarda temporalmente en el almacenamiento privado de la aplicación y se reemplaza en el próximo uso.</p>
+
+    <h2>6. Público y menores de edad</h2>
     <p>Blokis es un juego apto para un público general. No recopilamos de forma consciente datos personales de menores de edad. Como la aplicación no solicita datos personales, no hay información personal de menores que podamos almacenar.</p>
 
-    <h2>5. Seguridad</h2>
-    <p>Dado que los datos de juego se almacenan localmente en tu dispositivo y no recopilamos datos personales, el riesgo asociado al tratamiento de tu información es mínimo. Los servicios de terceros mencionados aplican sus propias medidas de seguridad.</p>
+    <h2>7. Seguridad</h2>
+    <p>Dado que los datos de juego se almacenan localmente en tu dispositivo y no recopilamos datos personales, el riesgo asociado al tratamiento de tu información es mínimo. Toda la comunicación con los servicios de terceros se realiza por conexiones cifradas (HTTPS), y esos servicios aplican sus propias medidas de seguridad.</p>
 
-    <h2>6. Cambios en esta política</h2>
+    <h2>8. Tus opciones</h2>
+    <ul>
+      <li>Podés desactivar el recordatorio semanal en cualquier momento (sección 4).</li>
+      <li>Podés limitar la personalización de anuncios desde la configuración de tu sistema operativo (sección 3.4).</li>
+      <li>Podés eliminar todos los datos locales desinstalando la aplicación o borrando sus datos.</li>
+      <li>Los datos técnicos que recopilan Firebase Analytics y Crashlytics no incluyen información que permita identificarte; su conservación se rige por las políticas de Google.</li>
+    </ul>
+
+    <h2>9. Cambios en esta política</h2>
     <p>Podemos actualizar esta Política de Privacidad ocasionalmente. Cualquier cambio se publicará en esta misma página, con la fecha de actualización correspondiente.</p>
 
-    <h2>7. Contacto</h2>
+    <h2>10. Contacto</h2>
     <p>Si tenés preguntas sobre esta Política de Privacidad, podés escribirnos a: <a href="mailto:ferre171717@gmail.com">ferre171717@gmail.com</a>.</p>
 
     <div class="footer">
       © 2026 Blokis — Rodrigo Ferreira. Todos los derechos reservados.
     </div>
   </div>
+
+  <!-- ===================================================================== -->
+  <!-- ENGLISH                                                                 -->
+  <!-- ===================================================================== -->
+  <div class="container" id="en" lang="en">
+    <div class="brand">BLOKIS</div>
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: October 16, 2026</p>
+    <p class="lang"><a href="#es">Leer esta política en español</a></p>
+
+    <p>This Privacy Policy describes how the <strong>Blokis</strong> app ("the app", "we") handles information when you use it. Blokis is a block puzzle game developed by Rodrigo Ferreira, available for Android on Google Play and for iOS on the App Store. This policy applies to both versions. We encourage you to read it to understand our practices.</p>
+
+    <h2>1. Information we do NOT collect</h2>
+    <p>Blokis <strong>does not request or collect personally identifiable information</strong>. The app does not require registration, sign-in, email address, name, phone number or any other personal data to work. We do not operate servers of our own that receive your information.</p>
+
+    <h2>2. Data stored on your device</h2>
+    <p>Blokis stores some information <strong>only locally on your device</strong>, which is not sent to any server of ours:</p>
+    <ul>
+      <li>Your records and scores, together with the initials you enter.</li>
+      <li>Your play streak, your statistics and your level progress (completed levels and stars).</li>
+      <li>Your Daily Challenge state (last completed day and daily streak).</li>
+      <li>Your preferences and settings (sound, music, vibration, language and the weekly reminder).</li>
+      <li>The state of your purchase (for example, whether you bought the ad-free version).</li>
+      <li>Temporary images the app generates when you choose to share a record or a challenge (see section 5).</li>
+    </ul>
+    <p>This data is removed if you uninstall the app or clear its data from your device settings.</p>
+
+    <h2>3. Third-party services</h2>
+    <p>Blokis uses the following third-party services, which may collect some information automatically in order to work. Each has its own privacy policy. We do not use any services other than those listed here.</p>
+
+    <h3>3.1. Firebase Analytics (usage statistics)</h3>
+    <p>We use Firebase Analytics, by Google, to understand how the game is used and to improve it. <strong>Usage events</strong> are recorded, for example: games started and finished, levels completed or failed, Daily Challenge participation, feature usage (share, reminder, rate), ads shown and the steps of the purchase flow (including the product's price and currency, never your payment details). Along with the events, Firebase collects technical data such as device model, operating system version, app version, language and approximate country, and assigns an <strong>app instance identifier</strong>, generated at random on install and not linked to your identity. We do not send your name, email or any user identifier of our own, and we do not link this data with other sources. See the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Privacy and Security in Firebase</a>.</p>
+
+    <h3>3.2. Firebase Crashlytics (crash reports)</h3>
+    <p>We use Firebase Crashlytics, by Google, to detect and fix app crashes. When an error occurs, technical device data is collected (such as model, operating system version and the state of the app at the time of the crash). This information helps us improve stability and is not used to identify you.</p>
+
+    <h3>3.3. Remote configuration (Cloud Firestore)</h3>
+    <p>When you open the menu, the app may <strong>read</strong> a couple of configuration documents hosted on Cloud Firestore, by Google, to show you notices such as the availability of a new version or an informational message from the developer. It is a read-only HTTPS request: the app does not write or send your data to Firestore; as with any Internet connection, Google receives the technical metadata of the request (for example, the IP address).</p>
+
+    <h3>3.4. Google AdMob (advertising)</h3>
+    <p>We show ads through Google AdMob, unless you have purchased the ad-free version. To serve and measure ads, AdMob may access advertising identifiers and device data. On Android, you can reset or limit the advertising identifier from the system settings. On iOS, the app <strong>does not request tracking permission</strong> (App Tracking Transparency), so it does not access the device's advertising identifier. See the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">how Google uses advertising information</a>.</p>
+
+    <h3>3.5. In-app purchases</h3>
+    <p>Blokis offers an optional purchase to remove ads. Today, purchases are processed through <strong>Google Play</strong> (Google Play Billing). On iOS, when the purchase becomes available, it will be processed through <strong>Apple</strong> (App Store in-app purchases). In no case do we receive or store your payment details; payment processing is governed by Google's or Apple's policies, depending on the store. The "Restore purchases" option asks the corresponding store whether you already made the purchase with your account.</p>
+
+    <h3>3.6. Google Play and App Store</h3>
+    <p>The app uses store features: the in-app rating request (Google Play In-App Review on Android and Apple's review system on iOS), the update check (Google Play In-App Updates on Android) and opening the app's store page. These features are governed by Google's and Apple's policies.</p>
+
+    <h2>4. Notifications</h2>
+    <p>Blokis may show you a <strong>weekly reminder</strong> if you stop playing for a week, only if you turn it on. It is a <strong>local notification</strong>: the app itself schedules it on your device, based on your locally saved progress, with no servers or push notifications involved. You can turn it on or off from the Blokis Settings or from your operating system's notification settings.</p>
+
+    <h2>5. Sharing</h2>
+    <p>When you choose to share a record or a Daily Challenge, the app generates an image and a text on your device (with your score and streak, never personal data) and hands them to the app you choose through the system share sheet. We do not receive that content. The image is stored temporarily in the app's private storage and replaced the next time you share.</p>
+
+    <h2>6. Audience and minors</h2>
+    <p>Blokis is a game suitable for a general audience. We do not knowingly collect personal data from minors. Since the app does not request personal data, there is no personal information about minors that we could store.</p>
+
+    <h2>7. Security</h2>
+    <p>Since game data is stored locally on your device and we do not collect personal data, the risk associated with processing your information is minimal. All communication with third-party services happens over encrypted connections (HTTPS), and those services apply their own security measures.</p>
+
+    <h2>8. Your choices</h2>
+    <ul>
+      <li>You can turn the weekly reminder off at any time (section 4).</li>
+      <li>You can limit ad personalization from your operating system settings (section 3.4).</li>
+      <li>You can delete all local data by uninstalling the app or clearing its data.</li>
+      <li>The technical data collected by Firebase Analytics and Crashlytics does not include information that identifies you; its retention is governed by Google's policies.</li>
+    </ul>
+
+    <h2>9. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time. Any change will be published on this same page, with the corresponding update date.</p>
+
+    <h2>10. Contact</h2>
+    <p>If you have questions about this Privacy Policy, you can write to us at: <a href="mailto:ferre171717@gmail.com">ferre171717@gmail.com</a>.</p>
+
+    <div class="footer">
+      © 2026 Blokis — Rodrigo Ferreira. All rights reserved.
+    </div>
+  </div>
+
 </body>
 </html>
